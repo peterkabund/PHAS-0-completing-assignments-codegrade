@@ -1,0 +1,77 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-07-10T09:09:03.714Z",
+    "end": "2024-07-10T09:09:03.742Z",
+    "duration": 28
+  },
+  "tests": [
+    {
+      "title": "has been correctly cloned to your local environment",
+      "fullTitle": "This assignment has been correctly cloned to your local environment",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a file named myfile.md",
+      "fullTitle": "This assignment has a file named myfile.md",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file",
+        "showDiff": false,
+        "actual": "./myfile.md",
+        "stack": "AssertionError: No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file\n    at assert.isFile (node_modules\\chai-fs\\lib\\assertions\\file.js:34:35)\n    at Context.<anonymous> (test\\indexTest.js:15:17)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file",
+            "showDiff": false,
+            "actual": "./myfile.md",
+            "multiple": "AssertionError: No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file",
+            "stack": "AssertionError: No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file\n    at assert.isFile (node_modules\\chai-fs\\lib\\assertions\\file.js:34:35)\n    at Context.<anonymous> (test\\indexTest.js:15:17)\n    at process.processImmediate (node:internal/timers:478:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has a file named myfile.md",
+      "fullTitle": "This assignment has a file named myfile.md",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file",
+        "showDiff": false,
+        "actual": "./myfile.md",
+        "stack": "AssertionError: No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file\n    at assert.isFile (node_modules\\chai-fs\\lib\\assertions\\file.js:34:35)\n    at Context.<anonymous> (test\\indexTest.js:15:17)\n    at process.processImmediate (node:internal/timers:478:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file",
+            "showDiff": false,
+            "actual": "./myfile.md",
+            "multiple": "AssertionError: No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file",
+            "stack": "AssertionError: No file named 'myfile.md' found. Create one in the root of the assignment's directory: expected './myfile.md' to be a file\n    at assert.isFile (node_modules\\chai-fs\\lib\\assertions\\file.js:34:35)\n    at Context.<anonymous> (test\\indexTest.js:15:17)\n    at process.processImmediate (node:internal/timers:478:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "has been correctly cloned to your local environment",
+      "fullTitle": "This assignment has been correctly cloned to your local environment",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
